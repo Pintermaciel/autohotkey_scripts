@@ -10,16 +10,16 @@ MouseDown := false
 ; =============================================
 ; NAVEGAÇÃO COM SETAS
 ; =============================================
-CapsLock & w::Send, {Up}
-CapsLock & a::Send, {Left}
-CapsLock & s::Send, {Down}
-CapsLock & d::Send, {Right}
+CapsLock & e::Send, {Up}
+CapsLock & s::Send, {Left}
+CapsLock & d::Send, {Down}
+CapsLock & f::Send, {Right}
 
 ; =============================================
 ; TROCA DE ÁREAS DE TRABALHO
 ; =============================================
-CapsLock & e::SendInput, ^#{Right}
-CapsLock & q::SendInput, ^#{Left}
+CapsLock & w::SendInput, ^#{Right}
+CapsLock & r::SendInput, ^#{Left}
 
 ; =============================================
 ; INSERIR ABERTURA DE PARÊNTESES, CHAVES E COLCHETES
